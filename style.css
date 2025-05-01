@@ -1,0 +1,17 @@
+:root {
+    --color-primary: #FAF8CC;
+    --color-secondary: lightgray;
+    --default-padding: 1rem;
+    --default-margin: 1rem;
+    --default-shadow: .2rem .2rem .2rem rgba(0,0,0,0.2);
+    --default-font: sans-serif;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: var(--color-primary);
+    font-family: var(--default-font);
+}
