@@ -14,4 +14,5 @@
 body {
     background: var(--color-primary);
     font-family: var(--default-font);
+    font-size: 2rem;
 }
