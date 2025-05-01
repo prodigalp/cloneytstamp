@@ -1,0 +1,151 @@
+.header {
+    background: rgb(255, 255, 255);
+    height: 3.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 100;
+}
+.header__leftside,
+.header_rightside {
+    display: flex;
+    margin: 0 1.56rem;
+    gap: 1.3rem;
+    /* background: blue; */
+}
+.notif__popup {
+    position: relative;
+}
+.notif__count {
+    position: absolute;
+    background: #F00;
+    color: #FFF;
+    padding: .2rem .4rem;
+    border-radius: 40px;
+    top: -3px;
+    right: -3px;
+    font-size: .7rem;
+}
+.header__center {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    /* background: pink; */
+}
+.img__ham {
+    height: 1.45rem;
+}
+.img__yt {
+    height: 1.25rem;
+}
+.img__upload,
+.img__apps,
+.img__notif,
+.img__profilepic {
+    height: 1.8rem;
+}
+.header__search {
+    border:none;    
+    outline: none;
+    width: 100%;
+    max-width: 22rem; /* Textbox maximum width */
+    padding: .3rem .5rem;
+    border: 1px SOLID lightgray;
+    font-size: 1rem;
+    border-radius: .17rem;
+}
+.header__button1 {
+    height: 45px;
+    width: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border: none;
+    background-color: rgb(247, 247, 247);
+    margin-right: .5rem;
+    border: 1px SOLID lightgray;
+    border-radius: .1rem;
+    margin-left: -2px;
+}
+.header__button1 {
+    position: relative;
+    cursor: pointer;
+}
+.button__label {
+    position: absolute;
+    background: #545353;
+    color: #FFF;
+    padding: .3rem .5rem;
+    font-size: .9rem;
+    border-radius: .2rem;
+    bottom: -50px;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    pointer-events: none;
+}
+.header__button1:hover .button__label {
+    opacity: 1;
+    cursor: pointer;
+}
+.header__button2 {
+    height: 45px;
+    width: 39px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(248, 248, 248);
+}
+.header__button2 {
+    position: relative;
+    cursor: pointer;
+}
+.button__label2 {
+    position: absolute;
+    background: #4a4a4a;
+    color: #FFF;
+    border-radius: .2rem;
+    white-space: nowrap;
+    bottom: -40px;
+    padding: .3rem .5rem;
+    font-size: .9rem;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    pointer-events: none;
+}
+.header__button2:hover .button__label2 {
+    opacity: 1;
+}
+.img__search, 
+.img__mic {
+    height: 25px;
+}
+.popup__main {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.popup__label {
+    position: absolute;
+    background: #565555;
+    color: #FFF;
+    white-space: nowrap;
+    bottom: -45px;
+    padding: .2rem .5rem;
+    border-radius: .2rem;
+    opacity: 0;
+    pointer-events: none;
+    font-size: .9rem;
+}
+.popup__main:hover .popup__label {
+    opacity: 1;
+}

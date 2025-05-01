@@ -1,0 +1,137 @@
+:root {
+    --color-primary: lightgray;
+    --color-secondary: #FFF;
+    --default-margin: 1rem;
+    --default-padding: 1rem;
+    --default-font: sans-serif;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: var(--color-primary);
+    font-family: var(--default-font);
+}
+.header {
+    height: 10vh;
+    display: flex;
+    align-items: center;
+}
+.left__section {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    margin-right: 1rem;
+}
+.hamburger__icon {
+    width: 30px;
+    margin-right: 1rem;
+}
+.youtube__icon {
+    width: 100px;
+}
+.middle__section {
+    flex: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.txtSearch {
+    /* background: blue; */
+    border: 1px SOLID rgb(167, 165, 165);
+    padding: .8rem 1rem;
+    width: 60%;
+    font-size: 1rem;
+}
+.btnSearch {
+    margin-right: .7rem;
+    border: none;
+    border: 1px SOLID;
+    border: 1px SOLID rgb(167, 165, 165);
+    padding-top: 4px;
+}
+.search__icon {
+    height: 36px;
+    padding: 5px 20px;
+    /* border: 1px SOLID rgb(167, 165, 165); */
+    /* right: 1rem; */
+}
+.btnVoice {
+    border: none;
+    width: 40px;
+    border-radius: 18px;
+    padding: 5px;
+}
+.voice__icon {
+
+    /* background: yellow; */
+    background: none;
+
+}
+.right__section {
+    /* background: green; */
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+    flex-shrink: 0;
+}
+.img__upload {
+    width: 40px;
+}
+.img__apps {
+    width: 40px;
+}
+.img__notification {
+    width: 40px;
+}
+.img__profile {
+    width: 40px;
+    margin-right: .5rem;
+}
+
+.grid__img {
+    width: 100%;
+    display: block;
+}
+#wrapper {
+    width: 100%;
+    max-width: 90%;
+    margin: 2% auto;
+    background: var(--color-secondary);
+    padding: var(--default-padding);
+}
+.grid__parent {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: var(--default-margin);
+    row-gap: 2rem;
+}
+.grid__label {
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    column-gap: 2rem;
+}
+.grid__icon {
+    border-radius: 50%;
+    margin-top: var(--default-margin);
+}
+.grid__par {
+    margin-top: 1rem;
+}
+.grid__par__title {
+    font-size: 1.1rem;
+    font-weight: 550;
+    margin-bottom: var(--default-margin);
+}
+.grid__par__author {
+    margin-top: .5rem;
+    color: rgb(167, 167, 167);
+    font-size: .9rem;
+}
+.grid__par__view {
+    color: rgb(167, 167, 167);
+    font-size: .9rem;
+}

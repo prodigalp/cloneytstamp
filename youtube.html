@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Eyestrain's YouTube Clone</title>
+        <link rel="stylesheet" href="./assets/css/general.css">
+        <link rel="stylesheet" href="./assets/css/header.css">
+        <link rel="stylesheet" href="./assets/css/navigate.css">
+        <link rel="stylesheet" href="./assets/css/thumbnail.css">
+    </head>
+    <body>
+      <header class="header">
+          <div class="header__leftside">
+               <div class="popup__main">
+                    <img src="./assets/img/icons/hamburger-menu.svg" alt="hamburger menu" class="img__ham">
+                    <div class="popup__label">Navigate</div>
+               </div>
+               <div class="popup__main">
+                    <img src="./assets/img/icons/youtube-logo.svg" alt="YouTube Logo" class="img__yt">
+                    <div class="popup__label">Home</div>
+               </div>
+          </div>
+          <div class="header__center">
+               <input type="text" placeholder="Search" class="header__search">
+               <button class="header__button1">
+                    <img src="./assets/img/icons/search.svg" alt="Search box" class="img__search">
+                    <div class="button__label">Search</div>
+               </button>
+               <button class="header__button2">
+                    <img src="./assets/img/icons/voice-search-icon.svg" alt="Voice search" class="img__mic">
+                    <div class="button__label2">Search with your voice</div>
+               </button>
+          </div>
+          <div class="header_rightside">
+               <div class="popup__main">
+                    <img src="./assets/img/icons/upload.svg" alt="Upload Icon" class="img__upload">
+                    <div class="popup__label">Create</div>
+               </div>
+               <div class="popup__main">
+                    <img src="./assets/img/icons/youtube-apps.svg" alt="Apps Icon" class="img__apps">
+                    <div class="popup__label">YouTube Apps</div>
+               </div>
+                <div class="notif__popup">
+                    <div class="popup__main">
+                     <img src="./assets/img/icons/notifications.svg" alt="Notification Icon" class="img__notif">
+                     <div class="popup__label">Notifications</div>
+                     <div class="notif__count">3</div>
+                    </div>
+                </div>
+                <img src="./assets/img/icons/my-channel.jpeg" alt="Profile Picture" class="img__profilepic">
+          </div>
+      </header>
+      <nav class="navigate">
+          <div class="navi__home">
+               <img src="./assets/img/icons/home.svg" alt="Home Icon" class="navi__icon">
+               <p class="navi__label">Home</p>
+          </div>
+          <div class="navi__explore">
+               <img src="./assets/img/icons/explore.svg" alt="Explore Icon" class="navi__icon">
+               <p class="navi__label">Explore</p>
+          </div>
+          <div class="navi__sub">
+               <img src="./assets/img/icons/subscriptions.svg" alt="Subscribe Icon" class="navi__icon">
+               <p class="navi__label">Subscriptions</p>
+          </div>
+          <div class="navi__orig">
+               <img src="./assets/img/icons/originals.svg" alt="Original Icon" class="navi__icon">
+               <p class="navi__label">Original</p>
+          </div>
+          <div class="navi__music">
+               <img src="./assets/img/icons/youtube-music.svg" alt="Youtube Music Icon" class="navi__icon">
+               <p class="navi__label">YouTube Music</p>
+          </div>
+          <div class="navi__library">
+               <img src="./assets/img/icons/library.svg" alt="Library Icon" class="navi__icon">
+               <p class="navi__label">Library</p>
+          </div>
+      </nav>
+      <main>
+          <div id="wrapper">
+               <section class="thumbnail">
+                    <div class="thumbnail_01">
+                         <div class="thumbnail__upper">
+                              <img src="./assets/img/thumbnails/thumbnail-1.webp" alt="Image thumbnail 01" class="thumbnail__img">
+                              <div class="thumbnail__time">14:20</div>
+                         </div>
+                         <div class="thumbnail__lower">
+                              <div class="thumbnail__column">
+                                   <div class="popup__icon">
+                                        <img src="./assets/img/logo/channel-1.jpeg" alt="" class="thumbnail__channel">
+                                        <div class="popup__bookmark">
+                                             <img class="img_map" src="./assets/img/logo/channel-1.jpeg" alt="Image Mapping">
+                                             <div class="map__label">
+                                                  <p class="map__name">Marques Brownlee</p>
+                                                  <p class="map__subs">30 Subscribers</p>
+                                             </div>
+                                        </div>
+                                   </div>
+                                   <div class="thumbnail__labels">
+                                        <p class="thumbnail__title">
+                                             Talking Tech and AI with Google CEO Sundar Pichai!</p>
+                                        <p class="thumbnail__owner">Marques Brownlee</p>
+                                        <p class="thumbnail__counter">3.4M views · 6 months ago</p>
+                                   </div>
+                              </div>
+                         </div>
+                    </div>
+                    <div class="thumbnail_02">
+                         <div class="thumbnail__upper">
+                              <img src="./assets/img/thumbnails/thumbnail-2.webp" alt="Image thumbnail 01" class="thumbnail__img">
+                              <div class="thumbnail__time">6:26</div>
+                         </div>
+                         <div class="thumbnail__lower">
+                              <div class="thumbnail__column">
+                                   <img src="./assets/img/logo/channel-2.jpeg" alt="" class="thumbnail__channel">
+                                   <div class="thumbnail__labels">
+                                        <p class="thumbnail__title">
+                                             Try Not To Laugh Challenge #9</p>
+                                        <p class="thumbnail__owner">Markiplier</p>
+                                        <p class="thumbnail__counter">19M views · 4 years ago</p>
+                                   </div>
+                              </div>
+                         </div>
+                    </div>
+                    <div class="thumbnail_03">
+                         <div class="thumbnail__upper">
+                              <img src="./assets/img/thumbnails/thumbnail-3.webp" alt="Image thumbnail 01" class="thumbnail__img">
+                              <div class="thumbnail__time">9:13</div>
+                         </div>
+                         <div class="thumbnail__lower">
+                              <div class="thumbnail__column">
+                                   <img src="./assets/img/logo/channel-3.jpeg" alt="" class="thumbnail__channel">
+                                   <div class="thumbnail__labels">
+                                        <p class="thumbnail__title">
+                                             Crazy Tik Toks Taken Moments Before DISASTER</p>
+                                        <p class="thumbnail__owner">SSSniperWolf</p>
+                                        <p class="thumbnail__counter">12M views · 1 year ago</p>
+                                   </div>
+                              </div>
+                         </div>
+                    </div>
+                      <div class="thumbnail_04">
+                         <div class="thumbnail__upper">
+                              <img src="./assets/img/thumbnails/thumbnail-4.webp" alt="Image thumbnail 01" class="thumbnail__img">
+                              <div class="thumbnail__time">22:09</div>
+                         </div>
+                         <div class="thumbnail__lower">
+                              <div class="thumbnail__column">
+                                   <img src="./assets/img/logo/channel-4.jpeg" alt="" class="thumbnail__channel">
+                                   <div class="thumbnail__labels">
+                                        <p class="thumbnail__title">
+                                             
+The Simplest Math Problem No One Can Solve - Collatz</p>
+                                        <p class="thumbnail__owner">Veritasium</p>
+                                        <p class="thumbnail__counter">18M views · 4 months ago</p>
+                                   </div>
+                              </div>
+                         </div>
+                    </div>
+                    <div class="thumbnail_05">
+                         <div class="thumbnail__upper">
+                              <img src="./assets/img/thumbnails/thumbnail-5.webp" alt="Image thumbnail 01" class="thumbnail__img">
+                              <div class="thumbnail__time">11:17</div>
+                         </div>
+                         <div class="thumbnail__lower">
+                              <div class="thumbnail__column">
+                                   <img src="./assets/img/logo/channel-5.jpeg" alt="" class="thumbnail__channel">
+                                   <div class="thumbnail__labels">
+                                        <p class="thumbnail__title">
+                                             
+Kadane's Algorithm to Maximum Sum Subarray</p>
+                                        <p class="thumbnail__owner">CS Dojo</p>
+                                        <p class="thumbnail__counter">519K views · 5 years ago</p>
+                                   </div>
+                              </div>
+                         </div>
+                    </div>
+                    <div class="thumbnail_06">
+                         <div class="thumbnail__upper">
+                              <img src="./assets/img/thumbnails/thumbnail-6.webp" alt="Image thumbnail 01" class="thumbnail__img">
+                              <div class="thumbnail__time">19:59</div>
+                         </div>
+                         <div class="thumbnail__lower">
+                              <div class="thumbnail__column">
+                                   <img src="./assets/img/logo/channel-6.jpeg" alt="" class="thumbnail__channel">
+                                   <div class="thumbnail__labels">
+                                        <p class="thumbnail__title">
+                                             
+Anything You Can Fit In The Circle I’ll Pay For</p>
+                                        <p class="thumbnail__owner">MrBeast</p>
+                                        <p class="thumbnail__counter">141M views · 1 year ago</p>
+                                   </div>
+                              </div>
+                         </div>
+                    </div>
+                    <div class="thumbnail_07">
+                         <div class="thumbnail__upper">
+                              <img src="./assets/img/thumbnails/thumbnail-7.webp" alt="Image thumbnail 01" class="thumbnail__img">
+                              <div class="thumbnail__time">10:13</div>
+                         </div>
+                         <div class="thumbnail__lower">
+                              <div class="thumbnail__column">
+                                   <img src="./assets/img/logo/channel-7.jpeg" alt="" class="thumbnail__channel">
+                                   <div class="thumbnail__labels">
+                                        <p class="thumbnail__title">Why Planes Don't Fly Over Tibet</p>
+                                        <p class="thumbnail__owner">RealLifeLore</p>
+                                        <p class="thumbnail__counter">6.6M views · 1 year ago</p>
+                                   </div>
+                              </div>
+                         </div>
+                    </div>
+                    <div class="thumbnail_08">
+                         <div class="thumbnail__upper">
+                              <img src="./assets/img/thumbnails/thumbnail-8.webp" alt="Image thumbnail 01" class="thumbnail__img">
+                              <div class="thumbnail__time">7:12</div>
+                         </div>
+                         <div class="thumbnail__lower">
+                              <div class="thumbnail__column">
+                                   <img src="./assets/img/logo/channel-8.jpeg" alt="" class="thumbnail__channel">
+                                   <div class="thumbnail__labels">
+                                        <p class="thumbnail__title">Inside The World's Biggest Passenger Plane</p>
+                                        <p class="thumbnail__owner">Tech Vision</p>
+                                        <p class="thumbnail__counter">3.7M views · 10 months ago</p>
+                                   </div>
+                              </div>
+                         </div>
+                    </div>
+                    <div class="thumbnail_09">
+                         <div class="thumbnail__upper">
+                              <img src="./assets/img/thumbnails/thumbnail-9.webp" alt="Image thumbnail 01" class="thumbnail__img">
+                              <div class="thumbnail__time">13:17</div>
+                         </div>
+                         <div class="thumbnail__lower">
+                              <div class="thumbnail__column">
+                                   <img src="./assets/img/logo/channel-9.jpeg" alt="" class="thumbnail__channel">
+                                   <div class="thumbnail__labels">
+                                        <p class="thumbnail__title">The SECRET to Super Human STRENGTH</p>
+                                        <p class="thumbnail__owner">ThenX</p>
+                                        <p class="thumbnail__counter">20M views · 3 year ago</p>
+                                   </div>
+                              </div>
+                         </div>
+                    </div>
+                    <div class="thumbnail_10">
+                         <div class="thumbnail__upper">
+                              <img src="./assets/img/thumbnails/thumbnail-10.webp" alt="Image thumbnail 01" class="thumbnail__img">
+                              <div class="thumbnail__time">7:53</div>
+                         </div>
+                         <div class="thumbnail__lower">
+                              <div class="thumbnail__column">
+                                   <img src="./assets/img/logo/channel-10.jpeg" alt="" class="thumbnail__channel">
+                                   <div class="thumbnail__labels">
+                                        <p class="thumbnail__title">
+                                             How The World's Largest Cruise Ship Makes 30,000 Meals Every Day</p>
+                                        <p class="thumbnail__owner">Business Insider</p>
+                                        <p class="thumbnail__counter">14M views · 1 year ago</p>
+                                   </div>
+                              </div>
+                         </div>
+                    </div>
+                    <div class="thumbnail_11">
+                         <div class="thumbnail__upper">
+                              <img src="./assets/img/thumbnails/thumbnail-11.webp" alt="Image thumbnail 01" class="thumbnail__img">
+                              <div class="thumbnail__time">4:10</div>
+                         </div>
+                         <div class="thumbnail__lower">
+                              <div class="thumbnail__column">
+                                   <img src="./assets/img/logo/channel-11.jpeg" alt="" class="thumbnail__channel">
+                                   <div class="thumbnail__labels">
+                                        <p class="thumbnail__title">Dubai's Crazy Underwater Train and Other Things #Only in Dubai</p>
+                                        <p class="thumbnail__owner">Destination Tips</p>
+                                        <p class="thumbnail__counter">3M views · 1 year ago</p>
+                                   </div>
+                              </div>
+                         </div>
+                    </div>
+                    <div class="thumbnail_12">
+                         <div class="thumbnail__upper">
+                              <img src="./assets/img/thumbnails/thumbnail-12.webp" alt="Image thumbnail 01" class="thumbnail__img">
+                              <div class="thumbnail__time">4:51</div>
+                         </div>
+                         <div class="thumbnail__lower">
+                              <div class="thumbnail__column">
+                                   <img src="./assets/img/logo/channel-12.jpeg" alt="" class="thumbnail__channel">
+                                   <div class="thumbnail__labels">
+                                        <p class="thumbnail__title">
+                                             What would happen if you didn’t drink water? - Mia Nacamulli</p>
+                                        <p class="thumbnail__owner">TED-Ed</p>
+                                        <p class="thumbnail__counter">12M views · 5 years ago</p>
+                                   </div>
+                              </div>
+                         </div>
+                    </div>
+               </section>
+          </div>
+      </main>
+    </body>    
+</html>

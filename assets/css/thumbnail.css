@@ -1,0 +1,124 @@
+.thumbnail {
+    background: rgb(250, 250, 250);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 1rem;
+    gap: 1rem;
+}
+.thumbnail_01,
+.thumbnail_02,
+.thumbnail_03
+.thumbnail_04
+.thumbnail_05
+.thumbnail_06 {
+    display: flex;
+    flex-direction: column;
+}
+.thumbnail__img:hover,
+.thumbnail__title {
+    cursor: pointer;
+}
+.thumbnail__upper {
+    position: relative;
+}
+.thumbnail__time {
+    position: absolute;
+    bottom: .8rem;
+    right: .8rem;
+    background: #000;
+    color: #FFF;
+    border-radius: .2rem;
+    padding: .1rem .4rem;
+}
+.thumbnail__img {
+    width: 100%;
+    display: block;
+}
+.thumbnail__column {
+    display: flex;
+    gap: 1rem;
+    margin-top: .8rem;
+}
+/* Image mapping relative position (A)*/
+.popup__icon {
+    position: relative;
+    cursor: pointer;
+}
+/* Image mapping absolute position (B) */
+.popup__bookmark {
+    position: absolute;
+    background: rgb(255, 255, 255);
+    bottom: -70px;
+    color: #FFF;
+    display: flex;
+    padding: .7rem 1rem;
+    z-index: 101;
+    gap: 1rem;
+    box-shadow: 0 0 .5rem rgba(0, 0, 0, .5);
+    border-radius: .5rem;
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    pointer-events: none;
+    white-space: nowrap;
+} 
+.popup__icon:hover .popup__bookmark {
+    opacity: 1;
+}
+.img_map {
+    height: 80px;
+    width: 80px;
+    border-radius: 40px;
+}
+.map__name {
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+.map__subs {
+    font-size: 1rem;
+    color: grey;
+}
+.thumbnail__channel {
+    height: 60px;
+    width: 60px;
+    border-radius: 30px;
+}
+.thumbnail__title {
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+}
+.thumbnail__owner,
+.thumbnail__counter {
+    font-size: .8rem;
+    color: grey;
+    margin-bottom: .3rem;
+}
+/* ---------------------------------------- MEDIA QUERIES */
+@media (max-width: 1440px) {
+    .thumbnail {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .thumbnail__title {
+        font-size: 1rem;
+    }
+ }
+ @media (max-width: 900px) {
+    .thumbnail {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .thumbnail__title {
+        font-size: .9rem;
+    }
+ }
+ @media (max-width: 600px) {
+    .thumbnail {
+        grid-template-columns: 1fr;
+    }
+    .thumbnail__title {
+        font-size: .88rem;
+    }
+ }
